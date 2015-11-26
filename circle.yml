@@ -1,3 +1,7 @@
 machine:
   node:
     version: 4.1.0
+
+test:
+  override:
+    - lab -r console -r junit > $CIRCLE_TEST_REPORTS/lab/plight.xml

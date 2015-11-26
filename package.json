@@ -4,7 +4,7 @@
   "description": "simple status board",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "lab -r console"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/roylines/plight#readme",
   "devDependencies": {
-    "mocha": "*"
+    "lab": "*"
   },
   "engine": "node 4.1.0"
 }

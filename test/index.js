@@ -1,5 +1,8 @@
+const Lab = require("lab");
+const lab = exports.lab = Lab.script();
 
-describe("plight", () => {
-  it("should", () => {
+lab.experiment("plight", () => {
+  lab.test("should", (done) => {
+    return done();
   });
 });

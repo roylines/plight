@@ -8,8 +8,4 @@ lab.experiment("plight", () => {
   lab.test("should", (done) => {
     return done();
   });
-  lab.test("should fail", (done) => {
-    true.should.equal(false);
-    return done();
-  });
 });

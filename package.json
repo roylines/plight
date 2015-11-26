@@ -1,0 +1,26 @@
+{
+  "name": "plight",
+  "version": "0.0.1",
+  "description": "simple status board",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roylines/plight.git"
+  },
+  "keywords": [
+    "status"
+  ],
+  "author": "Roy Lines",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roylines/plight/issues"
+  },
+  "homepage": "https://github.com/roylines/plight#readme",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engine": "node 4.1.0"
+}

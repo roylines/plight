@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/roylines/plight#readme",
   "devDependencies": {
+    "chai": "^3.4.1",
     "lab": "*"
   },
   "engine": "node 4.1.0"

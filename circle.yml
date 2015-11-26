@@ -5,4 +5,4 @@ machine:
 test:
   override:
     - mkdir -p $CIRCLE_TEST_REPORTS/lab
-    - lab -r console -r junit > $CIRCLE_TEST_REPORTS/lab/plight.xml
+    - lab -r junit > $CIRCLE_TEST_REPORTS/lab/plight.xml

@@ -6,6 +6,9 @@
   "scripts": {
     "test": "lab -r console"
   },
+  "git-pre-hooks": {
+    "pre-push": "npm test"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/roylines/plight.git"
@@ -20,7 +23,8 @@
   },
   "homepage": "https://github.com/roylines/plight#readme",
   "devDependencies": {
-    "chai": "^3.4.1",
+    "chai": "*",
+    "git-pre-hooks": "*",
     "lab": "*"
   },
   "engine": "node 4.1.0"
